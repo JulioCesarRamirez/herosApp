@@ -1,9 +1,9 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import { mount } from 'enzyme';
-import { AuthContext } from '../../auth/AuthContext';
-import { LoginScreen } from '../../components/login/LoginScreen';
-import { types } from '../../types/types';
+import { AuthContext } from '../../../auth/AuthContext';
+import { LoginScreen } from '../../../components/login/LoginScreen';
+import { types } from '../../../types/types';
 
 describe('Testing <LoginScreen/> ', () => {
   const hisotry = {
